@@ -14,8 +14,7 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { AppRoutingModule } from "./app-routing.module";
 import { ComponentsModule } from "./components/components.module";
 import { BloodTestComponent } from './pages/blood-test/blood-test.component';
-// import { DonorComponent } from './pages/donor/donor.component';
-// import { BloodCountComponent } from './pages/blood-count/blood-count.component';
+
 
 @NgModule({
   imports: [

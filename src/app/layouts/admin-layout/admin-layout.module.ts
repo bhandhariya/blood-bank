@@ -19,6 +19,13 @@ import { BloodCountComponent } from "../../pages/blood-count/blood-count.compone
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { DonorComponent } from "src/app/pages/donor/donor.component";
 import { IssueComponent } from "src/app/issue/issue.component";
+import { HospitalComponent } from "src/app/pages/hospital/hospital.component";
+import { HospitalListComponent } from "src/app/pages/hospital-list/hospital-list.component";
+import { BloodComponent } from "src/app/pages/blood/blood.component";
+import { BloodListComponent } from "src/app/pages/blood-list/blood-list.component";
+import { VolumeReplacementComponent } from "src/app/pages/volume-replacement/volume-replacement.component";
+import { VolumeReplacementListComponent } from "src/app/pages/volume-replacement-list/volume-replacement-list.component";
+import { DonorListComponent } from "src/app/pages/donor-list/donor-list.component";
 
 @NgModule({
   imports: [
@@ -38,7 +45,7 @@ import { IssueComponent } from "src/app/issue/issue.component";
     MapComponent,
     BloodCountComponent,
     DonorComponent,
-    IssueComponent
+    IssueComponent, HospitalComponent, HospitalListComponent, BloodComponent, BloodListComponent, VolumeReplacementComponent, VolumeReplacementListComponent, DonorListComponent
     // RtlComponent
   ]
 })

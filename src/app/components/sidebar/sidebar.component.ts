@@ -3,7 +3,6 @@ import { Component, OnInit } from "@angular/core";
 declare interface RouteInfo {
   path: string;
   title: string;
-  rtlTitle: string;
   icon: string;
   class: string;
 }
@@ -11,75 +10,61 @@ export const ROUTES: RouteInfo[] = [
   {
     path: "/dashboard",
     title: "Dashboard",
-    rtlTitle: "لوحة القيادة",
     icon: "icon-chart-pie-36",
     class: ""
   },
   {
     path: "/donor",
     title: "Add Donor",
-    rtlTitle: "الرموز",
     icon: "icon-atom",
     class: ""
   },
   {
-    path: "/issue",
-    title: "Add issue",
-    rtlTitle: "الرموز",
+    path: "/donor-list",
+    title: "Donor List",
     icon: "icon-atom",
     class: ""
   },
-  
-  // {
-  //   path: "/maps",
-  //   title: "Maps",
-  //   rtlTitle: "خرائط",
-  //   icon: "icon-pin",
-  //   class: "" },
-  // {
-  //   path: "/notifications",
-  //   title: "Notifications",
-  //   rtlTitle: "إخطارات",
-  //   icon: "icon-bell-55",
-  //   class: ""
-  // },
+  {
+    path: "/hospital",
+    title: "Hospital",
+    icon: "icon-atom",
+    class: ""
+  },
+  {
+    path: "/hospital-list",
+    title: "Hospital List",
+    icon: "icon-atom",
+    class: ""
+  },
+  {
+    path: "/blood-group",
+    title: "Blood Group",
+    icon: "icon-atom",
+    class: ""
+  },
+  {
+    path: "/blood-group-list",
+    title: "Blood Group List",
+    icon: "icon-atom",
+    class: ""
+  },
+  {
+    path: "/vr",
+    title: "Volume & Replacement",
+    icon: "icon-atom",
+    class: ""
+  },
+  {
+    path: "/vr-list",
+    title: "Volume & Replacement List",
+    icon: "icon-atom",
+    class: ""
+  },
 
-  // {
-  //   path: "/user",
-  //   title: "User Profile",
-  //   rtlTitle: "ملف تعريفي للمستخدم",
-  //   icon: "icon-single-02",
-  //   class: ""
-  // },
-  // {
-  //   path: "/tables",
-  //   title: "Table List",
-  //   rtlTitle: "قائمة الجدول",
-  //   icon: "icon-puzzle-10",
-  //   class: ""
-  // },
-  // {
-  //   path: "/typography",
-  //   title: "Typography",
-  //   rtlTitle: "طباعة",
-  //   icon: "icon-align-center",
-  //   class: ""
-  // },
-  //test command
-  // {
-  //   path: "/rtl",
-  //   title: "RTL Support",
-  //   rtlTitle: "ار تي ال",
-  //   icon: "icon-world",
-  //   class: ""
-  // },
-  // {
-  //   path: "/blood-count",
-  //   title: "Blood Count",
-  //   rtlTitle: "ار تي ال",
-  //   icon: "icon-simple-add",
-  //   class: ""
-  // }
+  
+  
+ 
 ];
 
 @Component({

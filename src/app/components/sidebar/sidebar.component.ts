@@ -57,6 +57,7 @@ export const ROUTES: RouteInfo[] = [
   //   icon: "icon-align-center",
   //   class: ""
   // },
+  //test command
   // {
   //   path: "/rtl",
   //   title: "RTL Support",

@@ -18,6 +18,7 @@ import { BloodCountComponent } from "../../pages/blood-count/blood-count.compone
 
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { DonorComponent } from "src/app/pages/donor/donor.component";
+import { IssueComponent } from "src/app/issue/issue.component";
 
 @NgModule({
   imports: [
@@ -36,7 +37,8 @@ import { DonorComponent } from "src/app/pages/donor/donor.component";
     NotificationsComponent,
     MapComponent,
     BloodCountComponent,
-    DonorComponent
+    DonorComponent,
+    IssueComponent
     // RtlComponent
   ]
 })

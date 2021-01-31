@@ -22,6 +22,14 @@ export const ROUTES: RouteInfo[] = [
     icon: "icon-atom",
     class: ""
   },
+  {
+    path: "/issue",
+    title: "Add issue",
+    rtlTitle: "الرموز",
+    icon: "icon-atom",
+    class: ""
+  },
+  
   // {
   //   path: "/maps",
   //   title: "Maps",

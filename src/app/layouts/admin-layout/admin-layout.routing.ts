@@ -9,6 +9,7 @@ import { TablesComponent } from "../../pages/tables/tables.component";
 import { TypographyComponent } from "../../pages/typography/typography.component";
 import { BloodCountComponent } from "src/app/pages/blood-count/blood-count.component";
 import { DonorComponent } from "src/app/pages/donor/donor.component";
+import { IssueComponent } from "src/app/issue/issue.component";
 // import { RtlComponent } from "../../pages/rtl/rtl.component";
 
 export const AdminLayoutRoutes: Routes = [
@@ -21,5 +22,6 @@ export const AdminLayoutRoutes: Routes = [
   { path: "typography", component: TypographyComponent },
   { path: "blood-count", component: BloodCountComponent },
   { path: "donor", component: DonorComponent },
+  { path: "issue", component: IssueComponent },
   // { path: "rtl", component: RtlComponent }
 ];
